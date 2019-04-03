@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".HomeScreen"></activity>
+        <activity android:name=".RegisterScreen"></activity>
     </application>
 
 </manifest>

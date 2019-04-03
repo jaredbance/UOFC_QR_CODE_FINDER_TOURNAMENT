@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button loginButton;
+    private Button registerButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,16 @@ public class MainActivity extends AppCompatActivity {
                 // DO LOGIN VERIFICATION
                 //
                 startActivity(new Intent(MainActivity.this, HomeScreen.class));
+
+            }
+        });
+
+        registerButton = (Button)findViewById(R.id.registerButton);
+
+        registerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, RegisterScreen.class));
 
             }
         });

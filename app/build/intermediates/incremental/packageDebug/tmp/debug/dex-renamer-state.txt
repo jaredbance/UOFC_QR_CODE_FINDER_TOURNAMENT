@@ -1,0 +1,4 @@
+#Mon Apr 08 14:45:03 MDT 2019
+base.0=/Users/jaredbance/Android Projects /QRCodeTreasureHunt/app/build/intermediates/transforms/dexMerger/debug/153
+path.0=classes.dex
+renamed.0=classes.dex

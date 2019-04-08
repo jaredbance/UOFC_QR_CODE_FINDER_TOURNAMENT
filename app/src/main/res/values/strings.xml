@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">QR Code Treasure Hunt</string>
+    <string name="title_activity_your_team">yourTeam</string>
 </resources>
